@@ -1,11 +1,5 @@
 # lyrat chatbot button
 
-然后idf.py -p "PUERTO" flash monitor烧录
+1. cambiar contraseña de wifi en el main
 
-按下rec键灯亮开始询问
-
-Use idf.py menuconfig para configurar la clave de Google y la contraseña de la cuenta wifi
-
-Luego idf.py -p "PUERTO" monitor flash quemando
-
-Presione la tecla rec para que se ilumine y comience a preguntar
+2. usar idf.py menuconfig en consola , dirigirse a example configuration , y configurar la contraseña de api de google cloud
